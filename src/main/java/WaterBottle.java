@@ -1,0 +1,29 @@
+public class WaterBottle {
+    private double volume;
+
+    public WaterBottle() {
+        this.volume = 100;
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+
+    public double drink() {
+        return this.volume - 10;
+    }
+
+    public double empty() {
+        return this.volume = 0;
+    }
+
+    public double fill() {
+        return this.volume = 100;
+    }
+}
+
+// could use double or int
